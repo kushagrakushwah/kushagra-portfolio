@@ -5,35 +5,39 @@ const skillCategories = [
   {
     name: 'Languages',
     skills: [
-      { name: 'C', level: 85 },
-      { name: 'C++', level: 80 },
-      { name: 'Python', level: 90 },
-      { name: 'JavaScript', level: 85 },
-    ],
-  },
-  {
-    name: 'Web',
-    skills: [
-      { name: 'HTML/CSS', level: 95 },
+      { name: 'Python', level: 95 },
+      { name: 'C/C++', level: 85 },
+      { name: 'JavaScript', level: 90 },
       { name: 'PHP', level: 85 },
-      { name: 'Laravel', level: 80 },
-      { name: 'AJAX/JSON', level: 85 },
+      { name: 'SQL', level: 90 },
+      { name: 'Bash', level: 80 },
     ],
   },
   {
-    name: 'Data/AI',
+    name: 'AI_&_ML',
     skills: [
-      { name: 'Google OR-Tools', level: 75 },
-      { name: 'Pandas', level: 70 },
-      { name: 'NumPy', level: 70 },
-      { name: 'SQL', level: 85 },
+      { name: 'TensorFlow/Keras', level: 85 },
+      { name: 'OpenCV/MediaPipe', level: 90 },
+      { name: 'Scikit-learn', level: 85 },
+      { name: 'Google OR-Tools', level: 80 },
+      { name: 'NLP', level: 85 },
     ],
   },
   {
-    name: 'Tools',
+    name: 'Web_Tech',
     skills: [
-      { name: 'Git', level: 90 },
-      { name: 'GitHub', level: 90 },
+      { name: 'Laravel (MVC)', level: 85 },
+      { name: 'RESTful APIs', level: 90 },
+      { name: 'HTML/CSS', level: 95 },
+      { name: 'AJAX/JSON', level: 90 },
+    ],
+  },
+  {
+    name: 'DB_&_Tools',
+    skills: [
+      { name: 'MySQL/PostgreSQL', level: 90 },
+      { name: 'Git/GitHub', level: 95 },
+      { name: 'Linux Shell', level: 85 },
     ],
   },
 ];

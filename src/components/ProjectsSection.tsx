@@ -1,33 +1,29 @@
-import { Folder, Github, ExternalLink, Lock } from 'lucide-react';
+import { Folder, Github, Lock } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 import { Button } from './ui/button';
 
 const projects = [
   {
-    title: 'Employee Verification & Onboarding System',
-    description: 'RBAC web portal for admin/employee workflows with real-time dashboards and secure authentication.',
-    tech: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
-    // UPDATED LINK
-    github: 'https://github.com/kushagrakushwah/Employee_Verification_Report',
-    live: 'https://empverifyreport.com',
+    title: "Route Optimisation & Demand Prediction",
+    description: "Engineered a Multi-Depot Vehicle Routing Problem (MDVRP) solver. Integrated OpenStreetMap RESTful APIs and conducted Data Analysis using Pandas to reduce fleet travel distance by 35% and boost route prediction accuracy by 15%.",
+    tech: ["Python", "Google OR-Tools", "Scikit-Learn", "RESTful APIs", "Pandas"],
+    github: "https://github.com/kushagrakushwah/Route-Optimisation-OR-Tools",
     featured: true,
   },
   {
-    title: 'Route Optimisation using OR-Tools',
-    description: 'Modeling vehicle routing with multiple depots using CP-SAT solver and ML-assisted heuristics for optimization.',
-    tech: ['Python', 'Google OR-Tools', 'Operations Research'],
-    // UPDATED LINK
-    github: 'https://github.com/kushagrakushwah/Route-Optimisation-OR-Tools',
+    title: "GuardianAI – Driver Monitoring",
+    description: "Built a real-time computer vision safety pipeline detecting driver drowsiness (EAR) and head-pose distraction with zero latency. Automated a forensic data logging architecture using Python CSV modules.",
+    tech: ["Python", "OpenCV", "MediaPipe", "NumPy", "CSV", "Pygame"],
+    github: "https://github.com/kushagrakushwah/Guardian_AI",
     featured: true,
   },
   {
-    title: 'Intelligent Support Chatbot (ATMT)',
-    description: 'Customer support agent built on Laravel MVC with strict logic/UI separation and dynamic response rendering.',
-    tech: ['Laravel', 'PHP', 'MySQL', 'JavaScript'],
-    // UPDATED LINK
-    github: 'https://github.com/kushagrakushwah/CHATBOT-ATMT-Laravel-MVC-',
+    title: "ATMT Chatbot - NLP MVC Application",
+    description: "Trained a custom NLP neural network using TensorFlow/Keras to classify user intents. Developed a full-stack interface communicating via RESTful APIs using Laravel PHP, reducing average wait times by 40%.",
+    tech: ["Python", "TensorFlow/Keras", "Laravel (MVC)", "PHP", "MySQL", "AJAX"],
+    github: "https://github.com/kushagrakushwah/CHATBOT-ATMT-Laravel-MVC-",
     featured: true,
-  },
+  }
 ];
 
 const ProjectsSection = () => {
@@ -83,17 +79,6 @@ const ProjectsSection = () => {
                     <Github className="w-4 h-4" />
                     Code
                   </a>
-                  {project.live && (
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1 text-sm font-mono text-muted-foreground hover:text-secondary transition-colors"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      Live
-                    </a>
-                  )}
                 </div>
               </div>
               
@@ -104,7 +89,6 @@ const ProjectsSection = () => {
           ))}
         </div>
         
-        {/* UPDATED BUTTON: Added onClick to open your GitHub profile */}
         <div className="text-center mt-12">
           <Button 
             variant="outline" 

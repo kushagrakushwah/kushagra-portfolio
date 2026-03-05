@@ -2,10 +2,49 @@ import { Briefcase, Calendar, CheckCircle2, ExternalLink } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 
 const ExperienceSection = () => {
-  const achievements = [
-    'Developed a responsive chatbot using Python/Laravel MVC',
-    'Deployed employee verification portal (empverifyreport.com)',
-    'Cross-functional team collaboration for testing and deployment',
+  const workHistory = [
+    {
+      role: "Web Developer Intern",
+      company: "Aarush GOC",
+      location: "Nagpur, Maharashtra",
+      duration: "May 2025 – June 2025",
+      achievements: [
+        "Engineered an AI-driven chatbot using Python Deep Learning and Laravel MVC, automating 500+ daily queries.",
+        "Architected a secure employee verification portal utilizing PHP and MySQL.",
+        "Optimized backend SQL queries to achieve 99.9% system uptime."
+      ],
+      deployed: "empverifyreport.com"
+    },
+    {
+      role: "Training and Placement (TnP) Coordinator",
+      company: "VNIT Nagpur",
+      location: "CSE Branch",
+      duration: "2026 – Present",
+      achievements: [
+        "Coordinating placement drives, managing corporate relations, and facilitating technical opportunities for the cohort."
+      ],
+      deployed: null
+    },
+    {
+      role: "Core Member",
+      company: "SHELL (Cyber Security Club)",
+      location: "VNIT Nagpur",
+      duration: "2025 – Present",
+      achievements: [
+        "Active member in university cybersecurity initiatives, workshops, and technical vulnerability assessments."
+      ],
+      deployed: null
+    },
+    {
+      role: "Maintenance Councillor",
+      company: "First-Year Hostel",
+      location: "VNIT Nagpur",
+      duration: "2024 – 2025",
+      achievements: [
+        "Managed infrastructure maintenance workflows and student grievance resolutions for the residential hostel."
+      ],
+      deployed: null
+    }
   ];
 
   return (
@@ -27,7 +66,7 @@ const ExperienceSection = () => {
             </div>
             
             {/* Terminal Content */}
-            <div className="p-6 font-mono text-sm">
+            <div className="p-6 font-mono text-sm overflow-x-auto">
               {/* Command line */}
               <div className="mb-6">
                 <span className="text-accent">$</span>{' '}
@@ -36,73 +75,80 @@ const ExperienceSection = () => {
               
               {/* JSON-style output */}
               <div className="bg-background/50 rounded-lg p-6 border border-primary/10">
-                <div className="text-muted-foreground">{'{'}</div>
+                <div className="text-muted-foreground">{'['}</div>
                 
-                <div className="pl-4 space-y-4">
-                  {/* Role */}
-                  <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                    <span className="text-secondary">"role":</span>
-                    <span className="text-primary flex items-center gap-2">
-                      <Briefcase className="w-4 h-4 text-secondary" />
-                      "Android/Web Developer Intern"
-                    </span>
-                  </div>
-                  
-                  {/* Company */}
-                  <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                    <span className="text-secondary">"company":</span>
-                    <span className="text-primary">"Aarush GOC"</span>
-                    <span className="text-muted-foreground text-xs">// Nagpur</span>
-                  </div>
-                  
-                  {/* Timeline */}
-                  <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                    <span className="text-secondary">"duration":</span>
-                    <span className="text-accent flex items-center gap-2">
-                      <Calendar className="w-4 h-4" />
-                      "May 2025 – June 2025"
-                    </span>
-                  </div>
-                  
-                  {/* Achievements */}
-                  <div>
-                    <span className="text-secondary">"achievements":</span>
-                    <span className="text-muted-foreground"> [</span>
-                  </div>
-                  
-                  <div className="pl-4 space-y-3">
-                    {achievements.map((achievement, index) => (
-                      <div 
-                        key={index}
-                        className="flex items-start gap-3 group"
-                      >
-                        <CheckCircle2 className="w-4 h-4 text-accent mt-0.5 group-hover:text-secondary transition-colors" />
-                        <span className="text-primary/90 group-hover:text-primary transition-colors">
-                          "{achievement}"
-                          {index < achievements.length - 1 && <span className="text-muted-foreground">,</span>}
-                        </span>
+                <div className="pl-4 space-y-8">
+                  {workHistory.map((job, idx) => (
+                    <div key={idx}>
+                      <div className="text-muted-foreground mb-2">{'{'}</div>
+                      <div className="pl-4 space-y-4">
+                        
+                        {/* Role */}
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                          <span className="text-secondary">"role":</span>
+                          <span className="text-primary flex items-center gap-2">
+                            <Briefcase className="w-4 h-4 text-secondary" />
+                            "{job.role}"
+                          </span>
+                        </div>
+                        
+                        {/* Company */}
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                          <span className="text-secondary">"company":</span>
+                          <span className="text-primary">"{job.company}"</span>
+                          <span className="text-muted-foreground text-xs">// {job.location}</span>
+                        </div>
+                        
+                        {/* Timeline */}
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                          <span className="text-secondary">"duration":</span>
+                          <span className="text-accent flex items-center gap-2">
+                            <Calendar className="w-4 h-4" />
+                            "{job.duration}"
+                          </span>
+                        </div>
+                        
+                        {/* Achievements */}
+                        <div>
+                          <span className="text-secondary">"achievements":</span>
+                          <span className="text-muted-foreground"> [</span>
+                        </div>
+                        
+                        <div className="pl-4 space-y-3">
+                          {job.achievements.map((achievement, index) => (
+                            <div key={index} className="flex items-start gap-3 group">
+                              <CheckCircle2 className="w-4 h-4 text-accent mt-0.5 group-hover:text-secondary transition-colors shrink-0" />
+                              <span className="text-primary/90 group-hover:text-primary transition-colors">
+                                "{achievement}"{index < job.achievements.length - 1 && <span className="text-muted-foreground">,</span>}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                        <span className="text-muted-foreground pl-0">]</span>
+
+                        {/* Links Conditional Render */}
+                        {job.deployed && (
+                          <div className="flex flex-col sm:flex-row sm:items-center gap-2 pt-2">
+                            <span className="text-secondary">"deployed":</span>
+                            <a 
+                              href={`https://${job.deployed}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-accent hover:text-secondary transition-colors flex items-center gap-1 group"
+                            >
+                              "{job.deployed}"
+                              <ExternalLink className="w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                            </a>
+                          </div>
+                        )}
+
                       </div>
-                    ))}
-                  </div>
-                  
-                  <span className="text-muted-foreground pl-0">]</span>
-                  
-                  {/* Links */}
-                  <div className="flex flex-col sm:flex-row sm:items-center gap-2 pt-2">
-                    <span className="text-secondary">"deployed":</span>
-                    <a 
-                      href="https://empverifyreport.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent hover:text-secondary transition-colors flex items-center gap-1 group"
-                    >
-                      "empverifyreport.com"
-                      <ExternalLink className="w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                    </a>
-                  </div>
+                      <div className="text-muted-foreground mt-2">{'}'}{idx < workHistory.length - 1 ? ',' : ''}</div>
+                    </div>
+                  ))}
                 </div>
                 
-                <div className="text-muted-foreground mt-4">{'}'}</div>
+                <div className="text-muted-foreground mt-4">{']'}</div>
               </div>
               
               {/* Blinking cursor */}
