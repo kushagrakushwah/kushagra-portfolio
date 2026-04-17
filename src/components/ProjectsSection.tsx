@@ -11,17 +11,17 @@ const projects = [
     featured: true,
   },
   {
+    title: "EnvAudit – Corporate SaaS Red-Teaming",
+    description: "Engineered an OpenEnv-compliant simulation environment benchmarking AI agent safety in multi-tool B2B orchestration. Designed discrete RESTful APIs simulating Identity Providers and Billing systems to evaluate multi-hop reasoning.",
+    tech: ["Python", "FastAPI", "Docker", "LLMs", "RESTful APIs", "AI Safety"],
+    github: "https://github.com/kushagrakushwah/saas-openenv-audit",
+    featured: true,
+  },
+  {
     title: "GuardianAI – Driver Monitoring",
     description: "Built a real-time computer vision safety pipeline detecting driver drowsiness (EAR) and head-pose distraction with zero latency. Automated a forensic data logging architecture using Python CSV modules.",
     tech: ["Python", "OpenCV", "MediaPipe", "NumPy", "CSV", "Pygame"],
     github: "https://github.com/kushagrakushwah/Guardian_AI",
-    featured: true,
-  },
-  {
-    title: "ATMT Chatbot - NLP MVC Application",
-    description: "Trained a custom NLP neural network using TensorFlow/Keras to classify user intents. Developed a full-stack interface communicating via RESTful APIs using Laravel PHP, reducing average wait times by 40%.",
-    tech: ["Python", "TensorFlow/Keras", "Laravel (MVC)", "PHP", "MySQL", "AJAX"],
-    github: "https://github.com/kushagrakushwah/CHATBOT-ATMT-Laravel-MVC-",
     featured: true,
   }
 ];

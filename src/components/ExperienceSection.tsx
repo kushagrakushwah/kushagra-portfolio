@@ -4,6 +4,17 @@ import SectionHeader from './SectionHeader';
 const ExperienceSection = () => {
   const workHistory = [
     {
+      role: "Grand Finalist",
+      company: "Meta PyTorch OpenEnv Hackathon x Scaler",
+      location: "Bangalore, India",
+      duration: "April 2026",
+      achievements: [
+        "Selected from 52,000+ developers across India to present the EnvAudit project at the on-campus finale.",
+        "Competed for direct interviews with Meta & Hugging Face AI teams."
+      ],
+      deployed: null
+    },
+    {
       role: "Web Developer Intern",
       company: "Aarush GOC",
       location: "Nagpur, Maharashtra",
