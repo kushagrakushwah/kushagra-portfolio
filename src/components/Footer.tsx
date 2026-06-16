@@ -17,9 +17,6 @@ const Footer = () => {
           {/* Copyright */}
           <p className="font-mono text-sm text-muted-foreground text-center">
             <span className="text-accent">&copy;</span> {currentYear} Kushagra Singh Kushwah. 
-            <span className="hidden sm:inline"> Built with</span>
-            <Heart className="inline w-3 h-3 mx-1 text-secondary" />
-            <span className="hidden sm:inline">and code.</span>
           </p>
           
           {/* Status */}
