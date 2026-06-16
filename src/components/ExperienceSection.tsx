@@ -35,48 +35,6 @@ const ExperienceSection = () => {
         "Architected a PHP/MySQL employee portal eliminating 20+ hours of manual entry weekly at 99.9% uptime."
       ],
       deployed: null
-    },
-    {
-      role: "Training and Placement (TnP) Coordinator",
-      company: "CSE Branch, VNIT Nagpur",
-      location: "Nagpur, Maharashtra",
-      duration: "2026 – Present",
-      achievements: [
-        "Coordinating placement drives, managing corporate relations, and facilitating technical opportunities for the cohort."
-      ],
-      deployed: null
-    },
-    {
-      role: "Vice President & Core Member",
-      company: "SHELL (Cyber Security Club), VNIT Nagpur",
-      location: "Nagpur, Maharashtra",
-      duration: "2025 – Present",
-      achievements: [
-        "Promoted to Vice President; mentoring a 16-week blockchain research project targeting IEEE conference publication.",
-        "Spearheaded a Maharashtra-level CTF; conducted a Wireshark workshop on packet sniffing and traffic telemetry."
-      ],
-      deployed: null
-    },
-    {
-      role: "Maintenance Councillor",
-      company: "First-Year Hostel, VNIT Nagpur",
-      location: "Nagpur, Maharashtra",
-      duration: "2024 – 2025",
-      achievements: [
-        "Managed infrastructure maintenance workflows and student grievance resolutions for the residential hostel."
-      ],
-      deployed: null
-    },
-    {
-      role: "Grand Finalist & Summer of Code",
-      company: "Meta Hackathon & IIT Bombay",
-      location: "Bangalore & Mumbai",
-      duration: "2026",
-      achievements: [
-        "Grand Finalist, Meta PyTorch OpenEnv Hackathon x Scaler: Selected from 52,000+ developers.",
-        "Summer of Code, IIT Bombay Trust Lab: Awarded a stipended research internship for building SecureForge."
-      ],
-      deployed: null
     }
   ];
 

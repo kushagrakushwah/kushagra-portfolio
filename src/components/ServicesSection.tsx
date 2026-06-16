@@ -4,21 +4,21 @@ import SectionHeader from './SectionHeader';
 const services = [
   {
     icon: Globe,
-    title: 'Web Application Development',
-    description: 'Custom portals, RBAC systems, and secure backend architecture using PHP/Laravel.',
-    techs: ['PHP', 'Laravel', 'MySQL', 'REST APIs'],
-  },
-  {
-    icon: Route,
-    title: 'Optimization Consulting',
-    description: 'Solving VRP (Vehicle Routing Problems) and resource allocation using Google OR-Tools & Graph Theory.',
-    techs: ['OR-Tools', 'Python', 'Graph Theory', 'ML'],
+    title: 'Breach & Attack Simulation',
+    description: 'Engineering self-hosted BAS platforms and red-teaming environments with MITRE ATT&CK mapping.',
+    techs: ['Python', 'FastAPI', 'Kubernetes', 'Nmap'],
   },
   {
     icon: MessageSquare,
-    title: 'Chatbot Integration',
-    description: 'Building intelligent customer support agents with dynamic message rendering and smart routing.',
-    techs: ['NLP', 'Laravel', 'JavaScript', 'APIs'],
+    title: 'AI Agent Development',
+    description: 'Building and training LLM agents using GRPO/RL in partially observable enterprise environments.',
+    techs: ['Qwen2.5-7B', 'RL', 'Tool-Calling', 'Docker'],
+  },
+  {
+    icon: Route,
+    title: 'Systems Optimization',
+    description: 'Solving complex vehicle routing problems (VRP) using Google OR-Tools and predictive ML demand models.',
+    techs: ['OR-Tools', 'Scikit-Learn', 'Pandas', 'APIs'],
   },
 ];
 
