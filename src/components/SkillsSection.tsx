@@ -5,39 +5,49 @@ const skillCategories = [
   {
     name: 'Languages',
     skills: [
+      { name: 'C/C++', level: 90 },
       { name: 'Python', level: 95 },
-      { name: 'C/C++', level: 85 },
-      { name: 'JavaScript', level: 90 },
-      { name: 'PHP', level: 85 },
-      { name: 'SQL', level: 90 },
-      { name: 'Bash', level: 80 },
+      { name: 'JavaScript', level: 85 },
+      { name: 'TypeScript', level: 85 },
     ],
   },
   {
-    name: 'AI_&_ML',
+    name: 'Web_&_APIs',
     skills: [
-      { name: 'TensorFlow/Keras', level: 85 },
-      { name: 'OpenCV/MediaPipe', level: 90 },
+      { name: 'FastAPI', level: 90 },
+      { name: 'Next.js', level: 85 },
+      { name: 'Laravel MVC', level: 85 },
+      { name: 'REST/WebSockets', level: 90 },
+      { name: 'HTML/CSS/PHP', level: 85 },
+    ],
+  },
+  {
+    name: 'Security_&_AI',
+    skills: [
+      { name: 'MITRE ATT&CK', level: 90 },
+      { name: 'BAS/Red-Teaming', level: 85 },
+      { name: 'LLMs/AI Agents', level: 90 },
+      { name: 'GRPO/RL', level: 85 },
+      { name: 'Computer Vision', level: 80 },
+    ],
+  },
+  {
+    name: 'Data_&_ML',
+    skills: [
+      { name: 'Pandas/NumPy', level: 90 },
       { name: 'Scikit-learn', level: 85 },
-      { name: 'Google OR-Tools', level: 80 },
-      { name: 'NLP', level: 85 },
+      { name: 'TensorFlow', level: 80 },
+      { name: 'HuggingFace', level: 85 },
+      { name: 'MediaPipe', level: 80 },
     ],
   },
   {
-    name: 'Web_Tech',
+    name: 'DevOps',
     skills: [
-      { name: 'Laravel (MVC)', level: 85 },
-      { name: 'RESTful APIs', level: 90 },
-      { name: 'HTML/CSS', level: 95 },
-      { name: 'AJAX/JSON', level: 90 },
-    ],
-  },
-  {
-    name: 'DB_&_Tools',
-    skills: [
-      { name: 'MySQL/PostgreSQL', level: 90 },
+      { name: 'Docker/K8s', level: 85 },
+      { name: 'ELK Stack', level: 80 },
       { name: 'Git/GitHub', level: 95 },
-      { name: 'Linux Shell', level: 85 },
+      { name: 'MySQL', level: 90 },
     ],
   },
 ];

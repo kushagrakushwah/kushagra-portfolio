@@ -4,13 +4,24 @@ import SectionHeader from './SectionHeader';
 const ExperienceSection = () => {
   const workHistory = [
     {
-      role: "Grand Finalist",
-      company: "Meta PyTorch OpenEnv Hackathon x Scaler",
-      location: "Bangalore, India",
-      duration: "April 2026",
+      role: "Security Engineering Intern",
+      company: "IITB Trust Lab, IIT Bombay",
+      location: "Mumbai, Maharashtra",
+      duration: "May 2026 – July 2026",
       achievements: [
-        "Selected from 52,000+ developers across India to present the EnvAudit project at the on-campus finale.",
-        "Competed for direct interviews with Meta & Hugging Face AI teams."
+        "Engineered SecureForge, a containerized Breach & Attack Simulation platform using FastAPI, Next.js 14, and Kubernetes.",
+        "Implemented MITRE ATT&CK ID mapping per finding and SOC coverage scoring; integrated ELK Stack telemetry."
+      ],
+      deployed: null
+    },
+    {
+      role: "Undergraduate Researcher",
+      company: "IIT Bombay – Prof. Uday Khedker",
+      location: "Remote / VNIT Nagpur",
+      duration: "March 2026 – Present",
+      achievements: [
+        "Collaborating on unpublished points-to analysis research; implementing novel PTA variants on a private codebase.",
+        "Validated four analyses (Andersen's, Steensgaard's, FS-PTA, LFCPA) on PTA-Viz."
       ],
       deployed: null
     },
@@ -20,16 +31,15 @@ const ExperienceSection = () => {
       location: "Nagpur, Maharashtra",
       duration: "May 2025 – June 2025",
       achievements: [
-        "Engineered an AI-driven chatbot using Python Deep Learning and Laravel MVC, automating 500+ daily queries.",
-        "Architected a secure employee verification portal utilizing PHP and MySQL.",
-        "Optimized backend SQL queries to achieve 99.9% system uptime."
+        "Engineered an AI chatbot using Python Deep Learning and Laravel MVC, automating 500+ daily queries.",
+        "Architected a PHP/MySQL employee portal eliminating 20+ hours of manual entry weekly at 99.9% uptime."
       ],
-      deployed: "empverifyreport.com"
+      deployed: null
     },
     {
       role: "Training and Placement (TnP) Coordinator",
-      company: "VNIT Nagpur",
-      location: "CSE Branch",
+      company: "CSE Branch, VNIT Nagpur",
+      location: "Nagpur, Maharashtra",
       duration: "2026 – Present",
       achievements: [
         "Coordinating placement drives, managing corporate relations, and facilitating technical opportunities for the cohort."
@@ -37,22 +47,34 @@ const ExperienceSection = () => {
       deployed: null
     },
     {
-      role: "Core Member",
-      company: "SHELL (Cyber Security Club)",
-      location: "VNIT Nagpur",
+      role: "Vice President & Core Member",
+      company: "SHELL (Cyber Security Club), VNIT Nagpur",
+      location: "Nagpur, Maharashtra",
       duration: "2025 – Present",
       achievements: [
-        "Active member in university cybersecurity initiatives, workshops, and technical vulnerability assessments."
+        "Promoted to Vice President; mentoring a 16-week blockchain research project targeting IEEE conference publication.",
+        "Spearheaded a Maharashtra-level CTF; conducted a Wireshark workshop on packet sniffing and traffic telemetry."
       ],
       deployed: null
     },
     {
       role: "Maintenance Councillor",
-      company: "First-Year Hostel",
-      location: "VNIT Nagpur",
+      company: "First-Year Hostel, VNIT Nagpur",
+      location: "Nagpur, Maharashtra",
       duration: "2024 – 2025",
       achievements: [
         "Managed infrastructure maintenance workflows and student grievance resolutions for the residential hostel."
+      ],
+      deployed: null
+    },
+    {
+      role: "Grand Finalist & Summer of Code",
+      company: "Meta Hackathon & IIT Bombay",
+      location: "Bangalore & Mumbai",
+      duration: "2026",
+      achievements: [
+        "Grand Finalist, Meta PyTorch OpenEnv Hackathon x Scaler: Selected from 52,000+ developers.",
+        "Summer of Code, IIT Bombay Trust Lab: Awarded a stipended research internship for building SecureForge."
       ],
       deployed: null
     }

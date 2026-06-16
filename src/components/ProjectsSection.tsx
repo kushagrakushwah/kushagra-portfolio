@@ -4,24 +4,24 @@ import { Button } from './ui/button';
 
 const projects = [
   {
-    title: "Route Optimisation & Demand Prediction",
-    description: "Engineered a Multi-Depot Vehicle Routing Problem (MDVRP) solver. Integrated OpenStreetMap RESTful APIs and conducted Data Analysis using Pandas to reduce fleet travel distance by 35% and boost route prediction accuracy by 15%.",
-    tech: ["Python", "Google OR-Tools", "Scikit-Learn", "RESTful APIs", "Pandas"],
-    github: "https://github.com/kushagrakushwah/Route-Optimisation-OR-Tools",
-    featured: true,
-  },
-  {
     title: "EnvAudit – Corporate SaaS Red-Teaming",
-    description: "Engineered an OpenEnv-compliant simulation environment benchmarking AI agent safety in multi-tool B2B orchestration. Designed discrete RESTful APIs simulating Identity Providers and Billing systems to evaluate multi-hop reasoning.",
-    tech: ["Python", "FastAPI", "Docker", "LLMs", "RESTful APIs", "AI Safety"],
+    description: "Built a complete RL training and evaluation system for a SaaS auditing agent using Qwen2.5-7B + GRPO in a partially observable enterprise environment. Engineered a FastAPI server with 7 tool-call APIs.",
+    tech: ["Python", "FastAPI", "Docker", "Qwen2.5-7B", "GRPO", "RL"],
     github: "https://github.com/kushagrakushwah/saas-openenv-audit",
     featured: true,
   },
   {
-    title: "GuardianAI – Driver Monitoring",
-    description: "Built a real-time computer vision safety pipeline detecting driver drowsiness (EAR) and head-pose distraction with zero latency. Automated a forensic data logging architecture using Python CSV modules.",
-    tech: ["Python", "OpenCV", "MediaPipe", "NumPy", "CSV", "Pygame"],
-    github: "https://github.com/kushagrakushwah/Guardian_AI",
+    title: "SecureForge – Breach & Attack Simulation",
+    description: "Built a self-hosted BAS platform orchestrating modular attack simulations with real-time WebSocket event streaming and MITRE ATT&CK coverage mapping. Deployed on Kubernetes with ELK Stack telemetry and Nmap subnet discovery.",
+    tech: ["Python", "FastAPI", "Next.js", "Kubernetes", "WebSockets", "Nmap"],
+    github: "https://github.com/kushagrakushwah/bas_v3",
+    featured: true,
+  },
+  {
+    title: "Route Optimisation & Demand Prediction",
+    description: "Engineered an MDVRP solver using Python and Google OR-Tools. Integrated OpenStreetMap APIs reducing theoretical fleet distance by 35%. Conducted ML demand forecasting boosting route prediction accuracy by 15%.",
+    tech: ["Python", "Google OR-Tools", "Scikit-Learn", "RESTful APIs", "Pandas"],
+    github: "https://github.com/kushagrakushwah/Route-Optimisation-OR-Tools",
     featured: true,
   }
 ];

@@ -11,7 +11,7 @@ const educationData = [
   {
     year: '2024',
     title: 'Class XII',
-    institution: 'Kendriya Vidyalaya',
+    institution: 'Kendriya Vidyalaya, Embassy of India',
     location: 'Kathmandu, Nepal',
   },
   {
@@ -23,12 +23,12 @@ const educationData = [
 ];
 
 const skills = [
-  'Problem-Solving',
-  'Team Collaboration', 
-  'Time Management',
-  'Critical Thinking',
-  'Communication',
-  'Adaptability',
+  'Security Engineering',
+  'AI Safety & Red-Teaming', 
+  'Systems Optimization',
+  'Threat Modeling',
+  'Agent Orchestration',
+  'Data Analytics',
 ];
 
 const AboutSection = () => {
@@ -113,7 +113,7 @@ const AboutSection = () => {
                 </p>
                 <p>
                   <span className="text-secondary">focus:</span>{' '}
-                  <span className="text-accent">"Optimization & ML"</span>,
+                  <span className="text-accent">"Security & AI Agents"</span>,
                 </p>
                 <p>
                   <span className="text-secondary">status:</span>{' '}

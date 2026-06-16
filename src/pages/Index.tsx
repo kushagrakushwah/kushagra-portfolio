@@ -13,14 +13,14 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Kushagra Singh Kushwah | Full Stack Developer & Optimization Enthusiast</title>
+        <title>Kushagra Singh Kushwah | Security Engineer & AI Agent Developer</title>
         <meta 
           name="description" 
-          content="Aspiring software developer with expertise in chatbot integration, portal development, and route optimization using Google OR-Tools. B.Tech CS student at VNIT Nagpur." 
+          content="Security Engineering Intern at IIT Bombay with expertise in Breach & Attack Simulation, LLM Agent Orchestration, and Systems Optimization. B.Tech CS student at VNIT Nagpur." 
         />
-        <meta name="keywords" content="Kushagra Singh Kushwah, Full Stack Developer, Web Developer, OR-Tools, Optimization, Laravel, Python, VNIT" />
-        <meta property="og:title" content="Kushagra Singh Kushwah | Portfolio" />
-        <meta property="og:description" content="Building Intelligent Systems & Optimization Solutions" />
+        <meta name="keywords" content="Kushagra Singh Kushwah, Security Engineer, AI Agents, Breach & Attack Simulation, LLM, Python, FastAPI, VNIT" />
+        <meta property="og:title" content="Kushagra Singh Kushwah | Security & AI Portfolio" />
+        <meta property="og:description" content="Building Secure Systems & Intelligent Agents" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://kushagrakushwah.dev" />
       </Helmet>

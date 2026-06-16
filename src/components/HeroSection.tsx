@@ -6,9 +6,9 @@ import profilePhoto from '@/assets/kushagra-photo.jpg';
 
 const HeroSection = () => {
   const roles = [
-    'Full Stack Developer',
-    'Optimization Enthusiast', 
-    'CS Student'
+    'Security Engineer',
+    'AI Agent Developer', 
+    'Full Stack Developer'
   ];
 
   // 1. Function to handle smooth scrolling to sections
@@ -93,14 +93,14 @@ const HeroSection = () => {
 
               <h1 className="font-display text-3xl md:text-5xl lg:text-6xl mb-6 leading-tight">
                 <GlitchText 
-                  text="Building Intelligent" 
+                  text="Building Secure" 
                   className="text-primary neon-text block mb-2"
                 />
                 <span className="text-secondary neon-text-purple">Systems</span>
                 <span className="text-primary"> & </span>
-                <span className="text-accent">Optimization</span>
+                <span className="text-accent">Intelligent</span>
                 <br />
-                <span className="text-primary">Solutions</span>
+                <span className="text-primary">Agents</span>
               </h1>
 
               <div className="font-mono text-lg md:text-xl mb-8 h-8">
@@ -109,11 +109,11 @@ const HeroSection = () => {
               </div>
 
               <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed">
-                Aspiring software developer with proven experience in{' '}
-                <span className="text-primary">chatbot integration</span> and{' '}
-                <span className="text-primary">portal development</span>. Currently working on{' '}
-                <span className="text-secondary">route optimization</span> using Google OR-Tools with 
-                ML-assisted methods.
+                Security Engineering Intern at IIT Bombay with experience in{' '}
+                <span className="text-primary">Breach & Attack Simulation</span> and{' '}
+                <span className="text-primary">LLM Agent Orchestration</span>. Currently working on{' '}
+                <span className="text-secondary">Red-Teaming</span> and{' '}
+                <span className="text-accent">Systems Optimization</span> using ML-assisted methods.
               </p>
 
               {/* CTA Buttons - NOW FUNCTIONAL */}
